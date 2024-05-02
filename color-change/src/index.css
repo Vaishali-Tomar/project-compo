@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar{
+    display: flex;
+  align-items: center;
+   justify-content: space-between;
+    width: 95vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: rgb(205, 219, 219);
+    
+}
+.unOrder li{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+.navbar li{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.nave{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    width: 95vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-image: url('https://images.unsplash.com/photo-1697459747689-64fffe4c9f8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.sec{
+    width: 95vw;
+    height: 50vh;
+    background-image: url('https://media.istockphoto.com/id/1344279337/photo/palm-trees-and-sky.jpg?s=1024x1024&w=is&k=20&c=skpWxYj2yB7COtaXiIhN4vRqNpnMH03POyIFDRMBWds=');
+    opacity: .85;
+    border-radius: 20px;
+}
+.sec h2{
+    font-size: 25px;
+    color: aliceblue;
+    margin: 20px;
+}
+.sec p{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 15px;
+
+}
